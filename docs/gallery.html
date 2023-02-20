@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>GALLERY</title> 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
+    <head>
+        <title>GALLERY</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
     <body>
-  <h1>Gallery</h1>
+        <h1>Gallery</h1>
         <nav>
-            <a href="index-11.html">welcome</a>
+            <a href="index.html">welcome</a>
             <a href="gallery.html">gallery</a>
             <a href="resume.html">resume</a>
         </nav>
+        <!-- 2023-02-20 ebb: Try working now with the <figure> element that makes a picture frame around your images, 
+            and allows you to set a visible caption in <figcaption> underneath them. -->
+        <p> Here are some photos I took over the past year. <img alt="Beach image"
+                src="images/beach.jpg" />
+            <img alt="HELLOOO I AM ALT TEXT" src="images/sunset.jpg" />  <img alt="CUSTOMIZE ME"
+                src="images/lakeandsun.jpg" /></p>
+        <p> One of my best memories is going to Chicago in both 2018 and 2019 and seeing Navy Pier:
+                <img alt="This is from Navy Pier"
+                src="https://cdn.choosechicago.com/uploads/2019/05/RP_NAVY-PIER5-e1565721679625-2400x1166.jpg"
+             />
+        </p>
+        <p>I also really enjoyed going to Detroit, Michigan last May: <img
+                alt="This is from Detroit"
+                src="https://media.timeout.com/images/105124788/image.jpg" />
+        </p>
         
-      <p>  Here are some photos I took over the past year.
-       <img alt="Beach image" src="images/beach.jpg"/>
-       <img alt="HELLOOO I AM ALT TEXT"  src="images/sunset.jpg"/>  
-       <img alt="CUSTOMIZE ME" src="images/lakeandsun.jpg"/></p>
-        
-      <p>  One of my best memories is going to Chicago in both 2018 and 2019 and seeing Navy
-        Pier: <img alt="This is from Navy Pier" src="https://cdn.choosechicago.com/uploads/2019/05/RP_NAVY-PIER5-e1565721679625-2400x1166.jpg"/> </p>
-        
-        <p>I also really enjoyed going to Detroit, Michigan last May: <img alt="This is from Detroit" src="https://media.timeout.com/images/105124788/image.jpg"/>
-</p>
-</body>
+        <figure>
+            <img
+                alt="This is from Detroit"
+                src="https://media.timeout.com/images/105124788/image.jpg" />
+            <figcaption>I visited Detroit, Michigan last May. This picture is from media.timeout.com</figcaption>
+        </figure>
+        <figure>
+            <img alt="HELLOOO I AM ALT TEXT" src="images/sunset.jpg" />
+            <figcaption>A sunset at Presque Isle.</figcaption>
+        </figure>
+    </body>
 </html>
