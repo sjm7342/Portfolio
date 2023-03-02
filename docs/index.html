@@ -4,7 +4,12 @@
 but is not intended for display.
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head><style> body {background-color: darkblue;
+        width: 1000px;
+        border: 10px solid blue;
+        padding: 100px;
+        margin: 100px;
+        }Welcome to my Website</style>
     <!-- This is Sean Martin speaking and here is a link -->
     <title>Today is Not Wednesday</title>
     <!-- The green background color on this website is pretty soothing.
@@ -12,15 +17,12 @@ but is not intended for display.
     <link rel="stylesheet" type="text/css" href="style.css" /> 
     <!--ebb: NOTE: You did not send a style.css so I don't know if you've tried saving this code elsewhere, but it won't work without an 
     actual file named style.css to store your styling. I restored your styling code where it would go on this page. -->
-    <style>
-        body { background: LightGreen; } 
-        img {width: 20%;}
-    </style>
-    
 </head>
+    
+    
 <body><!-- ebb: Instead of just using strong for headings, use HTML's heading elements: h1 through h6 
     <strong>SEQN PROFILE WEBSITE</strong>] I've added them here for you! -->
-    <h1>SEQN PROFILE WEBSITE</h1>
+    <h1> SEQN PROFILE WEBSITE</h1>
     <!-- ebb: The CSS info is in the wrong place: we were seeing it displayed because it's set down in the <body> display window element:
         I am moving it back up. 
         <link rel="stylesheet" type="text/css" href="style.css" /> body { background: LightGreen; } -->
@@ -30,13 +32,12 @@ but is not intended for display.
         <a href="resume.html">resume</a>
     </nav>
     
-    
-     <h1><strong>California Dreamin'</strong></h1>
+    <div><h1><strong>California Dreamin'</strong></h1>
     <h2>All The Leaves Are Brown</h2>
     <h3>And The Sky Is There</h3>
     <h4>I've Been For A Walk</h4>
     <h5>On A Winter's Day</h5>
-    <h6>I'd Be Safe and Warm</h6> 
+    <h6>I'd Be Safe and Warm</h6></div> 
     <!--ebb: SUGGESTIONS: Try using <p> elements around your paragraphs to block them.
      When you start with images: you have some text to accompany the images, so use the container elements we talked about:
      
@@ -50,18 +51,14 @@ but is not intended for display.
     <p>I was born in Gulfport, Mississippi, and lived there for a
     total of 12 years. In 2017, we moved back to Erie, PA and I have been here ever since. I
     enjoy Erie more than I do Gulfport, specifically: </p>
-       <ol> <li> the weather </li>
+      <section> <ol> <li> the weather </li>
         <li> the people </li>
         <li> the location </li>
         <li> the sights</li>
-        <li> the possibilities</li></ol>
+        <li> the possibilities</li></ol></section>
     <p>Enjoy <a href="https://www.gulfport-ms.gov/">this link</a>  to my hometown.
     <em>Some of my hobbies include: filmmaking, writing, reading, and traveling.</em> </p>
-    
-    
-    
-    
-    
+
     <img src="images/beach.jpg"/>
     
     <img src="images/sunset.jpg"/>
